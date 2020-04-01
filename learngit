@@ -1,0 +1,14 @@
+#来源 廖雪峰的官方网站
+1、参数设置
+$git config --global user.name "Your Name"
+$git config --global user.email "email@example.com"
+2、初始化目录
+$mkdir leargit
+$cd leargit
+$pwd	#查看当前目录
+$git init  #将目录变成Git管理的仓库
+$ls -ah    #-ah能查看隐藏的.git目录
+3、编辑文件readme.txt到learngit目录
+4、管理    #git只能跟踪文本文件，不能跟踪图片、视频，也不能跟踪word文件，因为它是二进制形式
+$git add readme.txt   #添加到仓库
+$git commit -m "wrote readme.txt"   #提交 可以分别添加多个文件，然后一次提交
