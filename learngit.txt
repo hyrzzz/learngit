@@ -13,4 +13,4 @@ $ls -ah    #-ah能查看隐藏的.git目录
 $git add readme.txt   #添加到仓库
 $git commit -m "wrote readme.txt"   #提交 可以分别添加多个文件，然后一次提交
 #git status 查看仓库状态
-#git diff yourfilename
+#git diff yourfilename 查看添加到仓库，但尚未提交的改变
